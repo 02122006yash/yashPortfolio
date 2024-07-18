@@ -1,0 +1,38 @@
+.photo{
+    height: max-content;
+    width: max-content;
+}
+
+.photo img{
+    height: 23px;
+    width: 23px;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+  .title-desc {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    margin-left: 26px;
+  }
+  
+  .title-desc.animate {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  .title-descs.animate {
+    animation: fadeIn 1s ease-out forwards;
+  }
+   
+  .title-descs {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+  }

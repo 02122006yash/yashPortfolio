@@ -1,0 +1,118 @@
+ <!-- <div class="horizontal h-[100px] w-[1px] mt-0 mb-0 ml-[100px] mr-[100px] bg-white">  
+                                            <div id="vertical-img" class="h-10 w-10px"><img  class="h-50px w-80px  relative " src="html.jpeg" alt="f"></div>
+                                            <div class="title text-white">HTML DEVELOPER</div>
+                                            <div class="title-desc text-white top-[75px] w-[150px]">Lorem ipsum dolor met consectetur adipisicing elit. Laudantium rem desse consequuntur. Possimus dolor illum quas quasi asperiores esse doloribus impedit nostrum! Quas eveniet odio aut placeat ab?</div>
+                                          </div> -->
+                                          <!-- <div class="horizontal h-[93px] w-[1px] mt-0 mb-0 ml-[100px] mr-[100px] bg-white">  
+                                            <div id="vertical-img"><img  class="h-23px w-3px top-[-32px] left-[-9px] relative " src="bg.png" alt="f"></div>
+                                            <div class="title text-white">HTML DEVELOPER</div>
+                                            <div class="title-desc text-white top-[75px] w-[150px]">Lorem ipsum dolor met consectetur adipisicing elit. Laudantium rem desse consequuntur. Possimus dolor illum quas quasi asperiores esse doloribus impedit nostrum! Quas eveniet odio aut placeat ab?</div>
+                                          </div> -->
+                                          <!-- <div class="horizontal h-[93px] w-[1px] mt-0 mb-0 ml-[100px] mr-[100px] bg-white">  
+                                            <div id="vertical-img"><img  class="h-23px w-3px top-[-32px] left-[-9px] relative " src="bg.png" alt="f"></div>
+                                            <div class="title text-white">HTML DEVELOPER</div>
+                                            <div class="title-desc text-white top-[75px] w-[150px]">Lorem ipsum dolor met consectetur adipisicing elit. Laudantium rem desse consequuntur. Possimus dolor illum quas quasi asperiores esse doloribus impedit nostrum! Quas eveniet odio aut placeat ab?</div>
+                                          </div> -->
+                                          <!-- <div class="horizontal h-[93px] w-[1px] mt-0 mb-0 ml-[100px] mr-[100px] bg-white">  
+                                            <div id="vertical-img"><img class="h-23px w-3px top-[-32px] left-[-9px] relative "   src="bg.png" alt="f"></div>
+                                            <div class="title text-white">HTML DEVELOPER</div>
+                                            <div class="title-desc text-white top-[75px] w-[150px]">Lorem ipsum dolor met consectetur adipisicing elit. Laudantium rem desse consequuntur. Possimus dolor illum quas quasi asperiores esse doloribus impedit nostrum! Quas eveniet odio aut placeat ab?</div>
+                                          </div> -->
+
+
+
+
+                                          <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-slate-950 h-screen">
+            <nav class="w-full h-14 bg-blue-950 flex justify-between px-4 md:px-6 text-white">
+                  <div class="font-bold text-2xl mt-2 text-white cursor-pointer"><a href="Portfolio.html">Yash Portfolio</a></div>   
+                      <ul class="md:flex font-semibold hidden">
+                        <li class="mx-[10px] mt-2 cursor-pointer hover:text-indigo-400"><a href="/">Home</a></li>
+                        <li class="mx-[10px] mt-2 cursor-pointer hover:text-indigo-400"><a  class="no-underline text-white" href="/">About</a></li>
+                        <li class="mx-[10px] mt-2 cursor-pointer hover:text-indigo-400"><a class= "no-underline text-white"  href="/">Services</a></li>
+                        <li class="mx-[10px] mt-2 cursor-pointer hover:text-indigo-400"><a  class="no-underline text-white" href="/">Project</a></li>
+                        <li class="mx-[10px] mt-2 cursor-pointer hover:text-indigo-400"><a  class="no-underline text-white" href="/">Contact Me</a></li>
+                      </ul> 
+                </nav>
+              <!-- Navbar end -->
+
+              <!-- Header start -->
+                    <section class="first-section">
+                     <div class="hero-section p-[2em]">
+                      <div class="outer-div flex justify-around mb-[2em]">
+                          <div class="info-div  w-[50%] h-[350px] flex  flex-col justify-center text-white text-2xl font-bold ml-8">
+                                <div class="text-3xl font-bold">Hi, MY name is <span class="text-purple-500">Yash</span></div>
+                                <div class="text-white text-3xl font-bold font-serif">and I am a passionate
+                                </br><span class="text-purple-500" id="element"></span>
+                                </div>
+                          </div>
+                          <div class="image-div w-[50%] h-[350px] flex  justify-center ml-8 ">
+                              <img class="m-[50px,0] h-full w-[88%]" src="bg.png" alt="">
+                          </div>
+                      </div>
+                    </section>
+                  <!-- header section end -->
+                  <hr class="h-[1.2px] border-0 bg-blue-800 mt-[48px] mb-[28px] ml-[84px] mr-[84px]">
+
+                 <!-- Language section -->
+                  <section class="section-second">
+                         <div class="p-[2em]">
+                                    <h6 class="text-gray-800 font-bold ">What I have Done </h6>
+                                     <h6 class="text-white font-semibold text-xl">Languages Known</h6>
+                                   <div class="">
+                                        <div class="bg-white h-[0.7px] w-[85%] mt-[46px] mb-[56px] ml-[0px] mr-[0px] flex justify-evenly">
+                                          <div class="horizontal h-[100px] w-[1px] mt-0 mb-0 ml-[100px] mr-[100px] bg-white">  
+                                            <div id="vertical-img"><img  class="h-50px w-80px top-[-32px] left-[-9px] relative " src="html.jpeg" alt="f"></div>
+                                            <div class="title text-white">HTML DEVELOPER</div>
+                                            <div class="title-desc text-white top-[75px] w-[150px]">Lorem ipsum dolor met consectetur adipisicing elit. Laudantium rem desse consequuntur. Possimus dolor illum quas quasi asperiores esse doloribus impedit nostrum! Quas eveniet odio aut placeat ab?</div>
+                                          </div>
+                                          <div class="horizontal h-[93px] w-[1px] mt-0 mb-0 ml-[100px] mr-[100px] bg-white">  
+                                            <div id="vertical-img"><img  class="h-23px w-3px top-[-32px] left-[-9px] relative " src="bg.png" alt="f"></div>
+                                            <div class="title text-white">HTML DEVELOPER</div>
+                                            <div class="title-desc text-white top-[75px] w-[150px]">Lorem ipsum dolor met consectetur adipisicing elit. Laudantium rem desse consequuntur. Possimus dolor illum quas quasi asperiores esse doloribus impedit nostrum! Quas eveniet odio aut placeat ab?</div>
+                                          </div>
+                                          <div class="horizontal h-[93px] w-[1px] mt-0 mb-0 ml-[100px] mr-[100px] bg-white">  
+                                            <div id="vertical-img"><img  class="h-23px w-3px top-[-32px] left-[-9px] relative " src="bg.png" alt="f"></div>
+                                            <div class="title text-white">HTML DEVELOPER</div>
+                                            <div class="title-desc text-white top-[75px] w-[150px]">Lorem ipsum dolor met consectetur adipisicing elit. Laudantium rem desse consequuntur. Possimus dolor illum quas quasi asperiores esse doloribus impedit nostrum! Quas eveniet odio aut placeat ab?</div>
+                                          </div>
+                                          <div class="horizontal h-[93px] w-[1px] mt-0 mb-0 ml-[100px] mr-[100px] bg-white">  
+                                            <div id="vertical-img"><img class="h-23px w-3px top-[-32px] left-[-9px] relative "   src="bg.png" alt="f"></div>
+                                            <div class="title text-white">HTML DEVELOPER</div>
+                                            <div class="title-desc text-white top-[75px] w-[150px]">Lorem ipsum dolor met consectetur adipisicing elit. Laudantium rem desse consequuntur. Possimus dolor illum quas quasi asperiores esse doloribus impedit nostrum! Quas eveniet odio aut placeat ab?</div>
+                                          </div>
+                                        </div>
+                                  </div>
+                          </div>  
+                          
+                  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </body>
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <script>
+                      var typed = new Typed('#element', {
+                        strings: ['Web Developer', '&amp; Web Designer.'],
+                        typeSpeed: 50,
+                      });
+                    </script>
+</html>
